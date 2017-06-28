@@ -1,0 +1,376 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    position: absolute;
+    border-bottom: .2em solid #cccccc;
+    left: 0;
+    top: 0;
+    height: 6em;
+    width: 100%;
+    background-color: #FFFFFF;
+    min-width: 650px;
+}
+
+body{
+    margin-top: 10.2em;
+    margin-bottom: 8em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url('../images/topography.png');
+    background-repeat: repeat;
+    
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 6.2em;
+    border-top: .5em solid #4aaaa5;
+    width: 100%;
+    background-color: #666666;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+p{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	/*text-indent: 3em;*/
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 2em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+
+}
+h2{
+	font-size: 1.5em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h3{
+	font-size: 1.17em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h4{
+	font-size: 1.33em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h5{
+	font-size: .83em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h6{
+	font-size: .67em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.myname {
+	color: #ffffff;
+}
+.navitem {
+	float: left;
+	font-size: larger;
+}
+
+.navitem:hover {
+	text-decoration: underline;
+}
+
+.navleft a {
+	border-right: 1px solid #CCCCCC;
+	padding-right: 1em;
+}
+.navright a {
+	border-left: 1px solid #CCCCCC;
+	padding-left: 1em;
+}
+.navmiddle a {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#copyright {
+	padding-top: 45px;
+}
+
+#namebox {
+	text-align: center;
+	position: relative;
+	left: 6em;
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	width: 15em;
+	height: 100%;
+	vertical-align: middle;
+	line-height: 6em;
+	float: left;
+}
+
+#nav {
+	text-align: center;
+	position: absolute;
+	right: 3em;
+	color: #FFFFFF;
+	height: 100%;
+	vertical-align: middle;
+	line-height: 6em;
+	float: left;
+}
+
+
+
+#content {
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
+	background-color: #CCCCCC;	
+	clear: top;
+}
+
+#main {
+	width: 650px;
+	background-color: #FFFFFF;
+	float: left;
+	border: 1px solid #dddddd;
+}
+
+#sidebar {
+	width: 270px;
+	background-color: #FFFFFF;
+	float: right;
+}
+
+.maincontent {
+	padding: 2em;
+	
+	
+}
+.sidebarcontent {
+	padding: 2em;
+	line-height: 4em;
+	border: 1px solid #dddddd;
+	
+}
+.mainheader {
+	border-bottom: 3px solid #CCCCCC;
+	line-height: 4em;
+}
+.sidebarheader {
+	border-bottom: 1px solid #CCCCCC;
+	text-align: center;
+}
+.maintext {
+	padding-top: 1em;
+	font-size: larger;
+}
+.sidebartext {
+	padding-top: 1em;
+	text-align: center;
+}
+.imageLink {
+	padding: 1em;
+	float: left;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.profileimage {
+	max-width: 250px;
+	float: left;
+	padding: 1em;
+}
+.inputlabel {
+	padding-top: 1em;
+	margin-bottom: -.7em;
+}
+.contactinput {
+	height: 1.8em;
+	width: 100%;
+}
+.contacttextarea {
+	height: 10em;
+}
+
+.leftimg-container {
+	float:left;
+	
+}
+
+.rightimg-container {
+	float:right;
+}
+
+.rightimg:hover + .pf-label {
+	opacity: 1;
+}
+
+.leftimg:hover + .pf-label {
+	opacity: 1;
+}
+
+.leftimg, .rightimg, .pf-label{
+	cursor: pointer;
+}
+
+.pf-label:hover{
+	opacity: 1;
+}
+
+.pf-label {
+	background-color: #4aaaa5;
+	position: relative;
+	top: -4em;
+	height: 2em;
+	text-align: center;
+	padding-top: 1em;
+	color: #FFFFFF;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: larger;
+	opacity: 0.7;
+}
+
+.button {
+	background-color: #4aaaa5; 
+	border: 1px solid #CCCCCC;
+	padding: .5em 1.5em .5em 1.5em;
+	color: #FFFFFF;
+	font-size: larger;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #429b97;
+	border: 1px solid #AAAAAA;
+}
+
+#stackoverflow-on{
+	display: none;
+}
+
+#linkedin-on{
+	display: none;
+}
+
+#github-on{
+	display: none;
+}
+
+#github-off:hover {
+	content:url('../images/github-64_on.png');
+}
+#linkedin-off:hover {
+	content:url('../images/linkedin-64_on.png');
+}
+#stackoverflow-off:hover {
+	content:url('../images/overflow-64_on.png');
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #CCCCCC;
+  padding-left: .5em;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #CCCCCC;
+  padding-left: .5em;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #CCCCCC;
+  padding-left: .5em;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #CCCCCC;
+  padding-left: .5em;
+}
+
+
+@media screen and (max-width: 960px){
+	#main{
+		width: 350px;
+		margin-left: 50px;
+	}
+	.profileimage{
+		position: relative;
+	}
+	#sidebar{
+		position: relative;
+		float: left;
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#main{
+		width: 70%;
+		position: relative;
+		left: 0;
+		right: 0;
+	}
+	.profileimage{
+		position: relative;
+	}
+	#sidebar{
+		position: relative;
+		float: left;
+		margin-top:50px;
+		width:70%;
+	}
+}
+
+
+@media screen and (max-width: 640px){
+	#main{
+		width: 600px;
+		float: left;
+		position: relative;
+		left: -4.2%;
+		top: 50px;
+
+	}
+	.profileimage{
+		position: relative;
+	}
+	
+	#sidebar{
+		width: 600px;
+		float: left;
+		position: relative;
+		left: -4.2%;
+		top: 3em;
+	}
+	#namebox{
+		width: 100%;
+		text-align: middle;
+		left: 0em;
+		height: 6em;
+	}
+	header{
+		height: 12em;
+	}
+	#nav{
+		top: 5em;
+		width: 100%;
+		text-align: middle;
+		left: 12.5em;
+	}
+	#sidebar{}
